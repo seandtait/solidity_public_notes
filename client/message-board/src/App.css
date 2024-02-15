@@ -1,0 +1,149 @@
+.App {
+	text-align: center;
+}
+
+.App body {
+	height: 100%;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+.bg-dark {
+	background-color: #3d5a80 !important;
+	color: #e0fbfc !important;
+}
+
+.navbar-dark .navbar-brand {
+	color: #e0fbfc !important;
+}
+
+body {
+	background-color: #98c1d9;
+	color: #3d5a80;
+}
+
+.btn-semcoin {
+	background-color: #e0fbfc;
+	/* Replace with your preferred background color */
+	color: #3d5a80;
+	/* Replace with your preferred font color */
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.border {
+	border: 1px solid #3d5a80 !important;
+	border-radius: 5%;
+}
+
+.message-box {
+	box-shadow: 4px 4px #3d5a80;
+	border: 1px solid #3d5a80;
+	border-radius: 4px;
+	padding: 4px;
+	margin: 8px;
+	padding-top: 10px;
+	margin-top: -12px;
+}
+
+.tip-box {
+	width: 100%;
+	margin-top: 16px;
+}
+
+.tip-overlap {
+	text-align: center;
+	padding: 10px 50px;
+	border: 1px solid black;
+	margin: 0 auto;
+	background-color: #e0fbfc;
+}
+
+.message-box-alt {
+	box-shadow: 4px 4px #3d5a80;
+	border-radius: 4px;
+	background-color: #fff;
+	padding: 4px;
+	margin: 8px;
+}
+
+.btn-semcoin-dark {
+	background-color: #3d5a80;
+	/* Replace with your preferred background color */
+	color: #e0fbfc;
+	/* Replace with your preferred font color */
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.btn-semcoin-dark:hover {
+	color: #e0fbfc !important;
+}
+
+.btn-semcoin-large {
+	font-size: 3vw;
+}
+
+.btn:hover {
+	filter: brightness(120%);
+	/* background-color: lighten(#e0dac9, 10%); */
+	/* color: lighten(#3f403c, 10%); */
+}
+
+.card {
+	border-radius: 16px;
+}
+
+.banking-card {
+	color: #e0fbfc;
+}
+
+.withdraw-slider {
+	height: 100px;
+	background-color: #3d5a80;
+}
+
+/* Styling the slider thumb */
+input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 24px;
+	/* Width of the thumb */
+	height: 24px;
+	/* Height of the thumb */
+	background: #e0fbfc;
+	/* Green background */
+	cursor: pointer;
+	/* Cursor on hover */
+}
+
+input[type="range"]::-moz-range-thumb {
+	width: 24px;
+	height: 24px;
+	background: #e0fbfc;
+	cursor: pointer;
+}
+
+/* Styling the slider track */
+input[type="range"]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 12px;
+	background: #e0fbfc;
+	/* Light grey background */
+	cursor: pointer;
+}
+
+input[type="range"]::-moz-range-track {
+	width: 100%;
+	height: 12px;
+	background: #e0fbfc;
+	cursor: pointer;
+}
